@@ -16,5 +16,10 @@ let timerId = null;
 
 function onClickStart(e) {
     bodyEl.style.backgroundColor = getRandomHexColor();
-    
+    timerId = setInterval(() => {
+        bodyEl.style.backgroundColor = getRandomHexColor();
+
+    }, 1000)
+
+    startBtn.setAttribute
 }
