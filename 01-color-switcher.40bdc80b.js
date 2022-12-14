@@ -1,2 +1,0 @@
-const e=document.querySelector("[data-start]"),t=document.querySelector("[data-stop]"),o=document.querySelector("body"),c=document.querySelector(".box");c.style.display="flex",c.style.justifyContent="center",e.addEventListener("click",(function(e){o.style.backgroundColor=getRandomHexColor()})),t.addEventListener("click",onClickStop),t.setAttribute("disabled",!1);
-//# sourceMappingURL=01-color-switcher.40bdc80b.js.map
